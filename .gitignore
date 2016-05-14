@@ -31,3 +31,11 @@ bower.json
 
 # Simple Cov
 coverage
+
+*.cache
+
+*.pid
+
+*.log
+
+*.cache

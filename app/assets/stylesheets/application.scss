@@ -14,8 +14,6 @@
  *= require_self
  */
 
- // @import 'normalize';
- // @import 'main';
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import 'main';

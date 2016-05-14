@@ -1,7 +1,87 @@
-<div class="container">
-  <div class="jumbotron">
-    <h1>Bootstrap!!</h1>
+<!-- jumbotron -->
+<div class="jumbotron jumbotron-fluid bg-info">
+	<div class="container">
+		<div class="col-lg-6">
+			<h1 class="display-2">Rails Dev Kev</h1>
+			<p class="lead">Webdeveloper/ Ruby on Rails Developer/ JavaScript Developer/ React/ Docker/ Learning Elixir/ Tech Enthusiast/ Husband/ Dad</p>
+		</div>
+		<div class="col-lg-6">
+			<h3 class="m-b-2"> <%= Faker::Name.name %></h3>
+			<p><%= Faker::Lorem.paragraph(2) %></p>
+			<!-- <div class="m-b-1 img-fluid img-rounded hidden-xs-down"> -->
+			<!-- <%= image_tag 'EAI_PACE.jpg', id: 'EAI_PACE' %> -->
+			<!-- </div>  -->
 
-  </div>
-
+		</div>
+	</div>
 </div>
+
+
+			<!-- about -->
+			<div class="container">
+			<div id="about" class="row">
+
+					<h1 id="about-me" class="container display-4 text-xs-center m-y-3 text-muted">About Me</h1>
+				<!-- </div> -->
+				<div class="col-lg-4">
+          <h3 class="m-b-2"> <%= Faker::Name.name %></h3>
+		      <p><%= Faker::Lorem.paragraph(2) %></p>
+		      <p><%= Faker::Lorem.paragraph(3) %></p>
+				</div>
+
+				<div class="col-lg-4">
+		      <h3 class="m-b-2"><%= Faker::Company.name %></h3>
+					<p><%= Faker::Lorem.paragraph(2)%></p>
+ 				 	<p><%= Faker::Lorem.paragraph(5)%></p>
+ 				 	<p><%= Faker::Lorem.paragraph(8)%></p>
+				</div>
+
+				<div class="col-lg-4">
+          <h3 class="m-b-2"><%= Faker::Company.name %></h3>
+
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- about -->
+		<div class="container">
+		<div id="about" class="row">
+
+				<h1 id="about-me" class="container display-4 text-xs-center m-y-3 text-muted">Contact Me</h1>
+			<!-- </div> -->
+			<div class="col-lg-4">
+				<h3 class="m-b-2"> <%= Faker::Name.name %></h3>
+				<p><%= Faker::Lorem.paragraph(2) %></p>
+				<p><%= Faker::Lorem.paragraph(3) %></p>
+			</div>
+
+			<div class="col-lg-4">
+				<h3 class="m-b-2"><%= Faker::Company.name %></h3>
+				<p><%= Faker::Lorem.paragraph(2)%></p>
+				<p><%= Faker::Lorem.paragraph(5)%></p>
+				<p><%= Faker::Lorem.paragraph(8)%></p>
+			</div>
+
+			<div class="col-lg-4">
+				<h3 class="m-b-2"><%= Faker::Company.name %></h3>
+				<ul>
+					<li>twitter</li>
+					<li>github</li>
+					<li>linkedin</li>
+					<li>email</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<footer>
+		<div class="container">
+
+			<%= Faker::Lorem.paragraph(1) %>
+		</div>
+	</footer>
