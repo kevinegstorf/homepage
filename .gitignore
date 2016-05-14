@@ -1,0 +1,33 @@
+# environment specific settings
+.env
+.powenv
+.autoenv.zsh
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+rerunt.txt
+
+# Jet Brains
+.idea
+
+# Precompiled Assets
+/public/assets
+
+# Bower Components and Node modules
+bower.json
+/vendor/assets/bower_components
+/vendor/assets/.bowerrc
+/node_modules
+
+
+# Simple Cov
+coverage
